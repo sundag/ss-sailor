@@ -19,7 +19,10 @@
     "promise",
     "standard"
   ],
-
+  "extends": [
+      "eslint:recommended",
+      "plugin:vue/recommended"
+  ],
   "globals": {
     "document": false,
     "navigator": false,
@@ -114,7 +117,6 @@
     "no-multi-str": "error",
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
     "no-negated-in-lhs": "error",
-    "no-new": "error",
     "no-new-func": "error",
     "no-new-object": "error",
     "no-new-require": "error",
@@ -198,7 +200,6 @@
 
     "standard/array-bracket-even-spacing": ["error", "either"],
     "standard/computed-property-even-spacing": ["error", "even"],
-    "standard/no-callback-literal": "error",
-    "standard/object-curly-even-spacing": ["error", "either"]
+    "standard/no-callback-literal": "error"
   }
 }

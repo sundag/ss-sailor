@@ -1,7 +1,7 @@
-const path = require('path');
-const glob = require('glob');
-const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const path = require('path')
+const glob = require('glob')
+const webpack = require('webpack')
+const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
     entry: { app: [path.resolve(__dirname, './src/client/main.js')] },
@@ -76,4 +76,4 @@ module.exports = {
             minimize: true
         })
     ]
-};
+}

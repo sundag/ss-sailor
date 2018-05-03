@@ -4,4 +4,4 @@ export default {
             appTitle: 'ss-sailor 模板Demo'
         }
     }
-};
+}
